@@ -1,0 +1,40 @@
+/* page/market/market.wxss */
+
+.header,.main,.box{
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap
+}
+.header .menu{
+  width:33.33%;
+  background-color: #fff;
+  text-align: center;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+
+.header .menu.active{
+  border-bottom: 5rpx solid #974A95;
+}
+
+.main{
+  margin: 2%;
+}
+.main .box{
+  background-color: #fff;
+  margin-bottom: 10rpx;
+}
+.main .left{
+  width:33%;
+  height:250rpx;
+  margin:1%;
+}
+.main .right{
+  width:65%;
+}
+/* .right .text{
+  display: block;
+} */
+.price{
+  color:#974A95;
+}

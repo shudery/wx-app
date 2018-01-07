@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "page/index/index",
+    "page/index/search",
+    "page/msg/msg",
+    "page/shop/shop",
+    "page/market/market",
+    "page/mine/mine"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#974A95",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#efefef",
+    "backgroundTextStyle": "dark",
+    "navigationBarTitleText": "王蓉造型培训"
+  },
+  "tabBar": {
+    "color": "#878787",
+    "selectedColor": "#000",
+    "borderStyle": "black",
+    "backgroundColor": "#fcfcfc",
+    "list": [
+      {
+        "pagePath": "page/index/index",
+        "iconPath": "icon/tabBar/home.png",
+        "selectedIconPath": "icon/tabBar/home-s.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "page/shop/shop",
+        "iconPath": "icon/tabBar/style.png",
+        "selectedIconPath": "icon/tabBar/style-s.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "page/market/market",
+        "iconPath": "icon/tabBar/shop.png",
+        "selectedIconPath": "icon/tabBar/shop-s.png",
+        "text": "商城"
+      },
+      {
+        "pagePath": "page/index/index",
+        "iconPath": "icon/tabBar/buy.png",
+        "selectedIconPath": "icon/tabBar/buy-s.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "page/mine/mine",
+        "iconPath": "icon/tabBar/mine.png",
+        "selectedIconPath": "icon/tabBar/mine-s.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

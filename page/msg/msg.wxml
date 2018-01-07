@@ -1,0 +1,27 @@
+<!--page/msg/msg.wxml-->
+
+<view>
+  <scroll-view>
+    <image class="img" src="../../icon/home/style-1.png"></image>
+    <view class="info">
+      <view class="title">专业纹绣培训 全科班</view>
+      <view class="msg">(眉毛+眼睛+唇部)</view>
+      <view class="price">￥1680</view>
+    </view>
+    <view class="main">
+      <view class="header">
+        <view class="menu">图文详情</view>
+        <view class="menu active">规格参数</view>
+        <view class="menu">包装清单</view>
+        <view class="menu">售后服务</view>
+      </view>
+      <view class="content">这里是规格参数 这里是规格参数 这里是规格参数 这里是规格参数 这里是规格参数</view>
+    </view>
+  </scroll-view>
+    <view class="footer">
+      <view class="menu">收藏</view>
+      <view class="menu active">购物车</view>
+      <view class="menu">立即购买</view>
+      <view class="menu">加入购物车</view>
+    </view>
+</view>

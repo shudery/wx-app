@@ -1,0 +1,17 @@
+<view class="container">
+  <view class="header">
+    <view class="menu">销量</view>
+    <view class="menu active">新品</view>
+    <view class="menu">价格</view>
+  </view>
+  <view class="main">
+    <view class="box" wx:for="{{array}}">
+      <image class="left" src="{{item.imgSrc}}"></image>      
+      <view class="right">
+        <text class="text title">{{item.title}}</text>
+        <text class="text msg">{{item.msg}}</text>
+        <text class="text price">{{item.price}}</text>
+      </view>
+    </view>
+  </view>
+</view>
